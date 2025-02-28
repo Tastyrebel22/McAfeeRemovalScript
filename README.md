@@ -1,0 +1,2 @@
+This script downloads and extracts the latest version of the official McAfee product removal tool.
+However, the current version of the mccleanup.exe file now has a captcha blocker to prevent running from CLI. So, the script downloads the 2022 version of that specific file and replaces it in the MCPR\$1\ directory, leaving all other files original. As far as I can tell, the mccleanup.exe file just references instructions in sub-folders for what to do, so in theory it should keep working in newer versions as new products are added and new instructions in sub-folders are added.
